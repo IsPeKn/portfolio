@@ -42,6 +42,9 @@ li a:hover {
     text-align: center;
 }
 
+.in {
+    list-style-type: none;
+}
 .in:hover {
     list-style-type: none;
 }
