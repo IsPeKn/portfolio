@@ -1,18 +1,17 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;;
 }
 
-h1 {
-    color:blueviolet;
+.out {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+
+h1,h2 {
     text-align: center;
-}
-
-h2 {
-    color: green;
-    border-bottom: hotpink;
-}
-
-p {
-    font-family: cursive;
-    color: indianred;
 }
