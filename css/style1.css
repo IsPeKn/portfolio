@@ -1,17 +1,35 @@
 * {
     font-family: 'Gemunu Libre', sans-serif;;
 }
-
-.out {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li a {
-    display: block;
-    width: 60px;
-}
-
 h1,h2 {
     text-align: center;
 }
+
+/* estilo para el menu de navegacion */
+
+div .out {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #516260;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #dc001B;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+
+
+
+
+
+
