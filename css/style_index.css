@@ -6,55 +6,68 @@ h1,h2 {
     text-align: center;
     color: #dc001B;
 }
- html {
-     background-image: url(../img/orientaltiles.png);
+ body {
+     background-image: url(../img/pexels1906794.jpg);
+     background-size: 100%;
+     background-repeat: repeat-x;
+     background-color: rgb(3, 41, 56);
  }
 
 /* estilo para el menú de navegacion */
-div .out {
-    list-style-type: none;
+
+#barra_nav {
     margin: 0;
     padding: 0;
-    width: 25%;
     background-color: #516260;
-    height: 100%;
-    position: fixed;
+    position: static;
     overflow: auto;
-    opacity: .9;
-    border-radius: 4px;
+    opacity: .70;
+    border-radius: 25px;
+    text-align: center;
+}
+table {
+    margin-left: 25%;
+    margin: auto;
 }
 
-li {
-    padding: 15px;
+.nav li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 9px;
 }
 
 li a {
     display: block;
     color: #dc001B;
-    padding: 8px 0 8px 16px;
     text-decoration: none;
-
 }
 li a:hover {
-    background-color: black;
+    background-color: rgb(3, 41, 56);
     font-style: italic;
     text-transform: uppercase;
-    text-align: center;
 }
 
-.in {
-    list-style-type: none;
-}
-.in:hover {
-    list-style-type: none;
-}
+
+
 /* Fin estilo para el menú de navegacion */
 
+main {
+    margin-left: 5%;
+    padding: 0px;
+    width: 85%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+}
 
-
-h3 {
-    color: green;
+#aboutme {
+    background-color: grey;
+    opacity: 0.85;
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
 }
 
 
