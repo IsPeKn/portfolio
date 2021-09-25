@@ -48,6 +48,15 @@ li a:hover {
     text-transform: uppercase;
 }
 
+/* menu desplegable*/
+ol {
+    display:none;
+}
+
+.desplegable:hover ol {
+    display: inline-block;
+}
+
 
 
 /* Fin estilo para el menú de navegacion */
