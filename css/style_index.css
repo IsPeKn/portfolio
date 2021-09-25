@@ -9,7 +9,7 @@ h1,h2 {
  body {
      background-image: url(../img/pexels1906794.jpg);
      background-size: 100%;
-     background-repeat: repeat-x;
+     background-repeat: repeat-y;
      background-color: rgb(3, 41, 56);
  }
 
@@ -57,10 +57,20 @@ ol {
     display: inline-block;
 }
 
+/* Aqui va el submenu desplegable del proyec* */
+
+#subapt {
+    display:none;
+}
+
+#abreSubapt:hover+#subapt{
+    display: block;
+}
+
+ /* Fin estilo para el menú de navegacion */
 
 
-/* Fin estilo para el menú de navegacion */
-
+/* cuerpo y extras*/
 main {
     margin-left: 5%;
     padding: 0px;
@@ -71,7 +81,7 @@ main {
 }
 
 #aboutme {
-    background-color: grey;
+    background-color: yellow;
     opacity: 0.85;
     text-align: center;
     width: 50%;
@@ -79,4 +89,31 @@ main {
     border-radius: 15px;
 }
 
+#logros {
+    background-color: blue;
+    opacity: 0.85;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+
+#fortalezas {
+    background-color: green;
+    opacity: 0.85;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+#objetivos {
+    background-color: red;
+    opacity: 0.85;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+
+/* footer y contacto*/
 
