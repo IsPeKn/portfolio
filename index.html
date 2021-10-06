@@ -2,143 +2,132 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_index.css">
-    <title>Portada</title>
+    <title>Portfolio_ASIR</title>
+    <link rel="stylesheet" href="css/estilo_portada.css">
 </head>
 <body>
 
-    <!-- section izq. para el menu (revisar desplegable) -->
-    <div id="barra_nav">
-        <table class="nav"> 
-            <tbody>
-                <tr>
-                    <th>
-                        <ul>
-                        <li>
-                            <a href="#">Portada</a>
-                        </li>
-                        </ul>
-                    </th>
-                    <th> 
-                        <ul>
-                        <li class="desplegable"><a href="asgbd.html" >ASGBD</a>
-                            <ol>
-                                <li><a href="#">Proyectos</a></li>
-                                <li><a href="#">Prácticas</a></li>
-                            </ol>
-                        </li>
-                        </ul>
-                    </th>
-                    <th>
-                        <ul>
-                        <li class="desplegable"><a href="IAW.html">IAW</a>
-                            <ol>
-                                <li id="abreSubapt"><a href="#">Proyectos</a></li>
-                                    <li id="subapt"><a href="IAW.html">Proyecto HTML-CSS</a></li>
-                                <li><a href="#">Prácticas</a></li>
-                            </ol>
-                        </li>
-                        </ul>
-                    </th>
-                    <th>
-                        <ul>
-                        <li>
-                            <a href="#contact">Contacto</a>
-                        </li>
+<div class="fondo"></div>
+<!-- Barra de navegacion que irá en el resto de webs -->
+
+<nav>
+    <ul>
+        <li><a href="#">Portada</a></li>
+        <li><a href="/ASGBD/ASGBD.html" class="separadas" >ASGBD</a>
+            <ul>
+                <li><a href="#"> > Proyectos</a>
+                    <ul>
+                        <li><a href="/ASGBD/ASGBD_proyecto.html"> >>Proyecto BBDD</a></li>
                     </ul>
-                    </th>
-                </tr>
-        </tbody>
-    </table>
+                </li>
+                <li><a href="#"> > Prácticas</a></li>
+            </ul>
+        </li>
+
+        <li><a class="separadas" href="/IAW/IAW.html">IAW</a>
+            <ul>
+                <li><a href="#"> >Proyectos</a>
+                    <ul>
+                        <li><a href="#"> >>Proyecto Html-CSS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> >Prácticas</a></li>
+            </ul>
+        </li>
+
+        <li><a href="index.html">Contacto</a></li>
+
+    </ul>
+</nav>
+
+<!-- FIN: Barra de navegacion -->
+
+<!-- Inicio: Cuerpo Web -->
+<section id="tapa">
+    <div id="objetos">
+        <img src="img/tapa(1).jpg" alt="FondoA" >
+
+        <p>Portfolio de: <br>
+            Ismael Pérez Caballero
+        </p>
     </div>
-<!-- incio del cuerpo-->
-    <main>
-        <div>
-            <h1>Portfolio de Ismael Pérez Caballero</h1>
-            <h2>¡Bienvenido!</h2>
-        </div>
-        <div id="aboutme">
+    <div class="gif">
+        <a href="#fig1"><img src="img/FLECHA-down.gif" alt="GIFraton"></a>
+    </div>
+</section>
+
+<section id="tapa2">
+    <div id="objetos2">
+        <img src="img/cara.png" alt="FondoB" >
+
+        <p>Mi Portfolio</p>
+    </div>
+    <div class="gif">
+        <a href="#fig1"> <img src="img/FLECHA-down.gif" alt="GIFraton"> </a>
+
+    </div>
+</section>
+
+
+<section id="about">
+    <div id="fig1">
+        <img src="img/Logros.png" alt="fig1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus corporis dolorem eum fuga harum
+            inventore ipsum itaque labore laboriosam modi molestias mollitia natus quasi sapiente sunt totam, ut
+            vero.</p>
+        <p>Ab amet consectetur ducimus esse ex explicabo impedit, iusto labore libero minus modi molestias nulla odit
+            optio perferendis quae quam quia quos ratione sequi soluta totam ut veniam vitae voluptate.</p>
+        <p>Earum, neque vero! Adipisci asperiores consequuntur eaque fuga itaque magnam minima nihil nobis veniam
+            voluptatem. Adipisci, architecto doloribus ducimus in recusandae sunt temporibus? Deserunt odit quasi,
+            reiciendis sit tempore ullam.</p>
+        <p>Aperiam illum odio porro praesentium quas recusandae repellendus reprehenderit totam. A accusamus dolores
+            eaque fuga illum, iste molestias officia quaerat quasi repellendus? Aliquid assumenda dolores, ex molestias
+            nisi perferendis voluptate!</p>
+    </div>
+
+    <div id="fig2">
+        <img src="img/Objetivos.jpg" alt="fig2">
             <p>
-                Hola! Mi nombre es Ismael Pérez, y soy un castellano y leones apasionado de las nuevas tecnologias, 
-                el mundo audiovisual y las comunicaciones. Todo trabajo me ha hecho crecer y me ha permitido abrir nuevos horizontes.
-            </p>
-            <p>
-                Actualmente poseo varias <em>skills</em> relacionadas con la ciberseguridad y estoy desarrollando mi carrera hacia estos lares.
-             </p>
-             <p>
-                 Conocedor del entorno <em>Front-end</em> y empezando con el <em>Back-end</em>.
-             </p>
-        </div>
+                Mis objetivos a priori son:
+                <p>1) Certificarme para...</p>
+                <p>2) Obtener el titulo de grado superior: ASIR</p>
+                <p>3) Poder vivir como "nómada digital"</p>
+                <p>4) Abrir una empresa de...</p>
     
-        <div id="logros">
-            <p>
-                Hola! Mi nombre es Ismael Pérez, y soy un castellano y leones apasionado de las nuevas tecnologias, 
-                el mundo audiovisual y las comunicaciones. Todo trabajo me ha hecho crecer y me ha permitido abrir nuevos horizontes.
             </p>
-            <p>
-                Actualmente poseo varias <em>skills</em> relacionadas con la ciberseguridad y estoy desarrollando mi carrera hacia estos lares.
-             </p>
-             <p>
-                 Conocedor del entorno <em>Front-end</em> y empezando con el <em>Back-end</em>.
-             </p>
-        </div>
-        
-        <div id="fortalezas">
-            <p>
-                Hola! Mi nombre es Ismael Pérez, y soy un castellano y leones apasionado de las nuevas tecnologias, 
-                el mundo audiovisual y las comunicaciones. Todo trabajo me ha hecho crecer y me ha permitido abrir nuevos horizontes.
-            </p>
-            <p>
-                Actualmente poseo varias <em>skills</em> relacionadas con la ciberseguridad y estoy desarrollando mi carrera hacia estos lares.
-             </p>
-             <p>
-                 Conocedor del entorno <em>Front-end</em> y empezando con el <em>Back-end</em>.
-             </p>
-        </div>
-        
-        <div id="objetivos">
-            <p>
-                Hola! Mi nombre es Ismael Pérez, y soy un castellano y leones apasionado de las nuevas tecnologias, 
-                el mundo audiovisual y las comunicaciones. Todo trabajo me ha hecho crecer y me ha permitido abrir nuevos horizontes.
-            </p>
-            <p>
-                Actualmente poseo varias <em>skills</em> relacionadas con la ciberseguridad y estoy desarrollando mi carrera hacia estos lares.
-             </p>
-             <p>
-                 Conocedor del entorno <em>Front-end</em> y empezando con el <em>Back-end</em>.
-             </p>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita. Error officia odio nihil cumque vitae commodi maiores. Tenetur repellat quia quo alias suscipit inventore libero error distinctio doloribus recusandae.</p>
-            <p>Iste, soluta quibusdam blanditiis ipsa in a debitis harum atque suscipit consequatur ad esse voluptatum provident laboriosam voluptates numquam, cupiditate eius nemo laborum aut tenetur ipsum aperiam ex deleniti! Officia!</p>
-            <p>Similique voluptatem animi quasi aut quos eum quibusdam asperiores harum ea odit autem praesentium aperiam necessitatibus sapiente rerum expedita, dolorum, illo eos ipsam distinctio culpa modi! Ducimus accusamus impedit reiciendis.</p>
-        </div> <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita. Error officia odio nihil cumque vitae commodi maiores. Tenetur repellat quia quo alias suscipit inventore libero error distinctio doloribus recusandae.</p>
-            <p>Iste, soluta quibusdam blanditiis ipsa in a debitis harum atque suscipit consequatur ad esse voluptatum provident laboriosam voluptates numquam, cupiditate eius nemo laborum aut tenetur ipsum aperiam ex deleniti! Officia!</p>
-            <p>Similique voluptatem animi quasi aut quos eum quibusdam asperiores harum ea odit autem praesentium aperiam necessitatibus sapiente rerum expedita, dolorum, illo eos ipsam distinctio culpa modi! Ducimus accusamus impedit reiciendis.</p>
-        </div> <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita. Error officia odio nihil cumque vitae commodi maiores. Tenetur repellat quia quo alias suscipit inventore libero error distinctio doloribus recusandae.</p>
-            <p>Iste, soluta quibusdam blanditiis ipsa in a debitis harum atque suscipit consequatur ad esse voluptatum provident laboriosam voluptates numquam, cupiditate eius nemo laborum aut tenetur ipsum aperiam ex deleniti! Officia!</p>
-            <p>Similique voluptatem animi quasi aut quos eum quibusdam asperiores harum ea odit autem praesentium aperiam necessitatibus sapiente rerum expedita, dolorum, illo eos ipsam distinctio culpa modi! Ducimus accusamus impedit reiciendis.</p>
-        </div> <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita. Error officia odio nihil cumque vitae commodi maiores. Tenetur repellat quia quo alias suscipit inventore libero error distinctio doloribus recusandae.</p>
-            <p>Iste, soluta quibusdam blanditiis ipsa in a debitis harum atque suscipit consequatur ad esse voluptatum provident laboriosam voluptates numquam, cupiditate eius nemo laborum aut tenetur ipsum aperiam ex deleniti! Officia!</p>
-            <p>Similique voluptatem animi quasi aut quos eum quibusdam asperiores harum ea odit autem praesentium aperiam necessitatibus sapiente rerum expedita, dolorum, illo eos ipsam distinctio culpa modi! Ducimus accusamus impedit reiciendis.</p>
-        </div>
-    <div>
-        <h3 id="contact">Parte de abajo // Contacto </h3>
     </div>
 
-    </main>
+    <div id="fig3">
+        <img src="img/fortalezas.jpg" alt="fig3">
+        <p>Mi gran fortaleza puede ser la perseverancia. Quizas sea el rasgo más destacable sobre mi personalidad.</p>
+        <p>
+            Soy curioso por naturaleza y eso me lleva a cuestionar mucho las cosas. Si me interesa algo puedo centrarme realmente en ese objetivo.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa dignissimos doloremque dolores ea earum error impedit incidunt ipsa, ipsam iste labore nostrum obcaecati perferendis, sint totam ullam voluptate voluptatem.</p>
+    </div>
 
 
-<!-- Insertar el footer-->
-<footer>
-    <div>
+</section>
+
+<!-- Fin: Cuerpo Web -->
+<!-- Inicio: footer/contacto -->
+
+<footer id="contacto">
+        <img src="img/contacto.jpg" alt="contacto">
+
+    <div id="iconos">
+        <p>Nombre: Ismael Pérez Caballero</p>
+        <p>Correo: ismaelperezc@salesianosvillamuriel.com </p>
+        <img src="img/github_png_icon.png" alt="ico2">
+        <p>GitHub: </p>
+        <img src="img/github_png_icon.png" alt="ico1">
+        <p>Móvil: 666555444 </p>
+        <img src="img/github_png_icon.png" alt="ico3">
+        <p>Linkedin: <a href="https://es.linkedin.com/"> Linkedin</a></p>
 
     </div>
+
 </footer>
+<!-- Fin: footer/contacto -->
 </body>
 </html>
