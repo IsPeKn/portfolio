@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
 html {
     font-family: "Bitter", italic, "Fira Code", SansSerif,Verdana, sans-serif;
 }
@@ -7,10 +9,11 @@ html {
 
 nav {
     position: relative;
-    height: 120px;
+    height: 15vh;
     z-index: 40;
     width: 100%;
-    background-color: #8ce715;
+    background-color: rgba(86, 190, 138, 0.9);
+    border-radius: 0 0 35px 35px;
 }
 
 
@@ -26,7 +29,9 @@ nav>ul>li  {
     padding: 12px 0;
     text-decoration: none;
     text-align: center;
-    width: 350px;
+    width: 50vh;
+    border-radius: 0 0 35px 35px;
+
 }
 
 nav>ul>li:hover {
@@ -40,6 +45,7 @@ nav>ul>li>ul>li:hover {
 a {
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 1.4em;
 }
 
 
@@ -54,13 +60,18 @@ nav>ul>li>ul {
     top: 40px;
     display: none;
     background-color: #00aeff;
+    border-radius: 0 0 35px 35px;
+    margin-left: 19px;
 }
+
 nav>ul>li>ul>li>ul {
     position: absolute;
     display: none;
     background-color: #af8a9c;
     top: 0;
     left: 100%;
+    border-radius: 0 35px 35px 0;
+
 
 }
 
@@ -71,23 +82,26 @@ nav>ul>li:hover>ul {
 nav>ul>li>ul>li {
     display: block;
     text-align: center;
-    width: 340px;
+    width: 39vh;
     padding: 5px;
+    
 }
 
 nav>ul>li>ul>li>ul>li {
     display: block;
     text-align: left;
-    width: 340px;
+    width: 36vh;
     padding: 5px;
 
 }
 
 nav>ul>li>ul>li:hover>ul {
     display: block;
+    
 }
 nav>ul>li>ul>li>ul>li:hover{
     background-color: #dc001B;
+    
 }
 
 /* Fin estilo para el menú de navegacion */
@@ -115,13 +129,12 @@ nav>ul>li>ul>li>ul>li:hover{
     right: 50%;
     width: 50%;
     height: 100%;
-    background-color: #6f6d6e;
+    background-color: rgba(15, 14, 14, 0.9);
 }
 
-#tapa>div>img {
-    width: 290px;
-    height: 380px;
-    
+#tapa>div>img, #tapa2>div>img {
+    width: 360px;
+    height: 490px;
 }
 
 #tapa2 {
@@ -132,13 +145,12 @@ nav>ul>li>ul>li>ul>li:hover{
     z-index: 10;
     width: 50%;
     height: 100%;
-    text-align: center;
-    background: #00aeff;
+    background: rgba(239, 6, 6, 0.65);
 }
 
 #objetos{
     position: absolute;
-    top: 25%;
+    top: 12%;
     z-index: 10;
     width: 500px;
     height: 100%;
@@ -147,20 +159,29 @@ nav>ul>li>ul>li>ul>li:hover{
 
 #objetos2 {
     position: absolute;
-    top: 80px;
-    right: calc(50% - 250px);
+    top: 21vh;
+    left: 17vh;
     z-index: 10;
-    width: 500px;
+    width: 50%;
     height: 100%;
     text-align: center;
 
 }
 
-#objetos p, #objetos2 p {
-    color: white;
-    font-weight: bolder;
-    font-size: 2.5em;
+#objetos p,#objetos2 p {
+    color: hsla(0, 94%, 51%,1);
+    font-size: 5.60vh;
+    text-align: right; 
+    margin-left: 10px;  
+    font-family: 'Akronim', cursive;
 }
+
+#objetos2 p {
+    color: rgba(15, 14, 14, 0.9);
+    margin: 0;
+
+}
+
 
 .gif {
     position: absolute;
@@ -189,9 +210,15 @@ nav>ul>li>ul>li>ul>li:hover{
     font-weight: bold;
 }
 
-#about p {
+#about p, iframe{
     display: none;
 }
+
+#fig1:hover iframe {
+    display: block;
+
+}
+
 
 
 #fig1:hover, #fig2:hover, #fig3:hover {
@@ -217,7 +244,7 @@ nav>ul>li>ul>li>ul>li:hover{
     position: absolute;
     left: 0;
     top: 0;
-    width: 33%;
+    width: 33.3%;
     height: 100%;
     background-color: rgba(255, 240, 250, 0.2);
     border: 1px solid white;
@@ -230,9 +257,9 @@ nav>ul>li>ul>li>ul>li:hover{
 
 #fig2 {
     position: absolute;
-    left: 33%;
+    left: 33.3%;
     top: 0;
-    width: 33%;
+    width: 33.3%;
     height: 100%;
     background-color: rgba(255, 240, 250, 0.2);
     border: 1px solid white;
@@ -246,9 +273,9 @@ nav>ul>li>ul>li>ul>li:hover{
 
 #fig3 {
     position: absolute;
-    left: 66%;
+    left: 66.6%;
     top: 0;
-    width: 33%;
+    width: 33.3%;
     height: 100%;
     background-color: rgba(255, 240, 250, 0.2);
     border: 1px solid white;
@@ -277,9 +304,9 @@ nav>ul>li>ul>li>ul>li:hover{
     background-color: #555555;
 }
 #contacto>img {
-    margin-left: 62%;
-    width: 565px;
-    height: 398px;
+    margin-left: 50%;
+    width: 79vh;
+    height: 55vh;
     padding-top: 2vh;
 }
 
@@ -313,3 +340,4 @@ nav>ul>li>ul>li>ul>li:hover{
     background-color: black;
 }
 }
+
