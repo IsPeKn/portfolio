@@ -331,13 +331,15 @@ nav>ul>li>ul>li>ul>li:hover{
 
 /* Mediaquerys, ajustadas a un movil de 6,1" aprox.*/
 
-@media all and (max-width:800px) {
-#coursera, #edX,#udacity,#codeacademy {
-    position: absolute;
-    width: 50%;
-    overflow: auto;
-    box-sizing: content-box;
-    background-color: black;
+/* no funciona aun ...
+    @media all and (max-width:1000px) {
+    #fig1, #fig2, #fig3 {
+        position: relative;
+        width: auto;
+        overflow: auto;
+        background-color: transparent;
+    }
 }
-}
+
+*/
 
