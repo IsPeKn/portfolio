@@ -1,0 +1,144 @@
+/* estilo general*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2 {
+    text-align: center;
+    color: #dc001B;
+    background-color: #ffefd5;
+    width: 50%;
+    margin: auto;
+}
+
+ body {
+     background-color: rgb(45, 25, 175);
+     background-image: url(../img/base-datos-back.jpg);
+ }
+
+
+/* estilo para el menú de navegacion */
+
+nav {
+    position: relative;
+    height: 14vh;
+    z-index: 40;
+    width: 100%;
+    background-color: rgba(86, 190, 138, 0.9);
+    border-radius: 0 0 35px 35px;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav>ul>li  {
+    display: inline-block;
+    color: #ffefd5;
+    padding: 12px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 48vh;
+    border-radius: 0 0 35px 35px;
+
+}
+
+nav>ul>li:hover {
+    background-color: #dc001B;
+}
+
+nav>ul>li>ul>li:hover {
+    background-color: #dc001B;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+
+.separadas:hover {
+    letter-spacing: .8em;
+}
+
+/* menu desplegable*/
+
+nav>ul>li>ul {
+    position: absolute;
+    top: 40px;
+    display: none;
+    background-color: #00aeff;
+    border-radius: 0 0 35px 35px;
+    margin-left: 19px;
+}
+
+nav>ul>li>ul>li>ul {
+    position: absolute;
+    display: none;
+    background-color: #af8a9c;
+    top: 0;
+    left: 100%;
+    border-radius: 0 35px 35px 0;
+
+
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav>ul>li>ul>li {
+    display: block;
+    text-align: center;
+    width: 39vh;
+    padding: 5px;
+    
+}
+
+nav>ul>li>ul>li>ul>li {
+    display: block;
+    text-align: left;
+    width: 36vh;
+    padding: 5px;
+
+}
+
+nav>ul>li>ul>li:hover>ul {
+    display: block;
+    
+}
+nav>ul>li>ul>li>ul>li:hover{
+    background-color: #dc001B;
+    
+}
+
+/* Fin estilo para el menú de navegacion */
+
+div>h1 {
+    margin-top: 60px;
+}
+
+
+/* DIV de Botones */
+
+.contenedor {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.contenedor button {
+    margin-top: 5vh;
+    width: 45vh;
+    height: 60vh;
+    background-color:rgba(90, 60, 90, 0.9);
+    color: rgb(235, 17, 17);
+    font-size: 5vh;
+    margin-left: 1vh;
+}

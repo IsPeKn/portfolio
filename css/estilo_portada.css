@@ -9,7 +9,7 @@ html {
 
 nav {
     position: relative;
-    height: 15vh;
+    height: 14vh;
     z-index: 40;
     width: 100%;
     background-color: rgba(86, 190, 138, 0.9);
@@ -29,7 +29,7 @@ nav>ul>li  {
     padding: 12px 0;
     text-decoration: none;
     text-align: center;
-    width: 50vh;
+    width: 48vh;
     border-radius: 0 0 35px 35px;
 
 }
@@ -45,7 +45,7 @@ nav>ul>li>ul>li:hover {
 a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 
@@ -160,7 +160,7 @@ nav>ul>li>ul>li>ul>li:hover{
 #objetos2 {
     position: absolute;
     top: 21vh;
-    left: 17vh;
+    left: 16vh;
     z-index: 10;
     width: 50%;
     height: 100%;
@@ -170,7 +170,7 @@ nav>ul>li>ul>li>ul>li:hover{
 
 #objetos p,#objetos2 p {
     color: hsla(0, 94%, 51%,1);
-    font-size: 5.60vh;
+    font-size: 5.40vh;
     text-align: right; 
     margin-left: 10px;  
     font-family: 'Akronim', cursive;
