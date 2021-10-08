@@ -12,7 +12,7 @@ nav {
     height: 14vh;
     z-index: 40;
     width: 100%;
-    background-color: rgba(86, 190, 138, 0.9);
+    background-color: rgb(81, 98, 96, 0.9);
     border-radius: 0 0 35px 35px;
 }
 
@@ -59,7 +59,7 @@ nav>ul>li>ul {
     position: absolute;
     top: 40px;
     display: none;
-    background-color: #00aeff;
+    background-color: rgb(220, 60, 10);
     border-radius: 0 0 35px 35px;
     margin-left: 19px;
 }
@@ -239,6 +239,14 @@ nav>ul>li>ul>li>ul>li:hover{
     position: absolute;
     top: 25%;
 }
+#about h3 {
+    text-align: center;
+    background-color: rgba(248, 248, 255, 0.8);
+    width: 200px;
+    margin-left: 30%;
+    color: red;
+    border-radius: 5em;
+}
 
 #fig1 {
     position: absolute;
@@ -304,10 +312,10 @@ nav>ul>li>ul>li>ul>li:hover{
     background-color: #555555;
 }
 #contacto>img {
-    margin-left: 50%;
-    width: 79vh;
-    height: 55vh;
-    padding-top: 2vh;
+    width: 570px;
+    height: 400px;
+    padding-top: 1vh;
+    margin: 0 30vh 0 75vh;
 }
 
 #iconos {
@@ -331,7 +339,7 @@ nav>ul>li>ul>li>ul>li:hover{
 
 /* Mediaquerys, ajustadas a un movil de 6,1" aprox.*/
 
-/* no funciona aun ...
+/* no funciona aún ...
     @media all and (max-width:1000px) {
     #fig1, #fig2, #fig3 {
         position: relative;
