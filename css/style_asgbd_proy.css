@@ -9,18 +9,22 @@ h1,h2 {
     text-align: center;
     color: #dc001B;
 }
- body {
-     background-color: green;
- }
+
+body {
+    background-color: rgb(45, 25, 175);
+    background-image: url(../img/base-datos-back.jpg);
+}
+
 
 /* estilo para el menú de navegacion */
 
 nav {
     position: relative;
-    height: 120px;
+    height: 14vh;
     z-index: 40;
     width: 100%;
-    background-color: #8ce715;
+    background-color: rgb(81, 98, 96, 0.9);
+    border-radius: 0 0 35px 35px;
 }
 
 
@@ -36,7 +40,9 @@ nav>ul>li  {
     padding: 12px 0;
     text-decoration: none;
     text-align: center;
-    width: 350px;
+    width: 48vh;
+    border-radius: 0 0 35px 35px;
+
 }
 
 nav>ul>li:hover {
@@ -50,6 +56,7 @@ nav>ul>li>ul>li:hover {
 a {
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 
@@ -63,14 +70,19 @@ nav>ul>li>ul {
     position: absolute;
     top: 40px;
     display: none;
-    background-color: #00aeff;
+    background-color: rgb(220, 60, 10);
+    border-radius: 0 0 35px 35px;
+    margin-left: 19px;
 }
+
 nav>ul>li>ul>li>ul {
     position: absolute;
     display: none;
     background-color: #af8a9c;
     top: 0;
     left: 100%;
+    border-radius: 0 35px 35px 0;
+
 
 }
 
@@ -81,27 +93,38 @@ nav>ul>li:hover>ul {
 nav>ul>li>ul>li {
     display: block;
     text-align: center;
-    width: 340px;
+    width: 39vh;
     padding: 5px;
+    
 }
 
 nav>ul>li>ul>li>ul>li {
     display: block;
     text-align: left;
-    width: 340px;
+    width: 36vh;
     padding: 5px;
 
 }
 
 nav>ul>li>ul>li:hover>ul {
     display: block;
+    
 }
 nav>ul>li>ul>li>ul>li:hover{
     background-color: #dc001B;
+    
 }
 
 /* Fin estilo para el menú de navegacion */
 
+div>h1 {
+    text-align: center;
+    color: #dc001B;
+    background-color: #ffefd5;
+    width: 35em;
+    margin-left: 1em;
+    border-radius: 3em;
+}
 
 .contenedor {
     width: 100%;
@@ -117,3 +140,10 @@ code {
     white-space: pre-line;
 }
 
+.descrip {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    background-color: rgb(255, 239, 213,0.9);
+}
