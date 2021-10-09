@@ -26,7 +26,7 @@ nav {
     height: 14vh;
     z-index: 40;
     width: 100%;
-    background-color: rgba(86, 190, 138, 0.9);
+    background-color: rgb(81, 98, 96, 0.9);
     border-radius: 0 0 35px 35px;
 }
 
@@ -73,7 +73,7 @@ nav>ul>li>ul {
     position: absolute;
     top: 40px;
     display: none;
-    background-color: #00aeff;
+    background-color: rgb(220, 60, 10);
     border-radius: 0 0 35px 35px;
     margin-left: 19px;
 }
