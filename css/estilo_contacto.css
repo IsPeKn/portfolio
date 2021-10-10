@@ -152,6 +152,6 @@ body {
         border: 4px dotted rgb(100, 100, 50);
         border-radius: 1em;
         transform: rotate(360deg);
-            transition: 5s;
+            transition: 4s;
     }
 
