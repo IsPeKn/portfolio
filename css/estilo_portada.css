@@ -133,9 +133,12 @@ nav>ul>li>ul>li>ul>li:hover{
 }
 
 #tapa>div>img, #tapa2>div>img {
+    position: relative;
     width: 360px;
     height: 490px;
 }
+
+
 
 #tapa2 {
     position: absolute;
@@ -146,6 +149,26 @@ nav>ul>li>ul>li>ul>li:hover{
     width: 50%;
     height: 100%;
     background: rgba(239, 6, 6, 0.65);
+}
+
+#tapa2 #objetos1 {
+    display: none;
+}
+
+#tapa2:hover #objetos1 {
+    background-color: rgba(80, 80, 80, 0.5);
+    display: block;
+    margin-top: 250px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.3em;
+
+
+}
+
+
+#tapa2:hover #objetos2 {
+    display: none;
 }
 
 #objetos{
@@ -218,6 +241,7 @@ nav>ul>li>ul>li>ul>li:hover{
     display: block;
 
 }
+
 
 
 
