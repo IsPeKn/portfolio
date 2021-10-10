@@ -3,9 +3,12 @@ html {
     background-size:100%;
     background-color:#564d65;
 }
-h1,h2 {
+h1 {
     text-align: center;
     color: #dc001B;
+    font-size: 3em;
+    background-color: rgba(255, 239, 213,0.3) ;
+    width: auto;
 }
 
 
@@ -110,3 +113,20 @@ nav>ul>li>ul>li>ul>li:hover{
 
 /* Fin estilo para el menú de navegacion */
 
+
+
+.contenedor {
+    background-color: rgba(255, 235, 205,0.3);
+    font-size: 1.3em;
+}
+
+.contenedor p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.contenedor ol li{
+    color: rgb(40, 40, 100);
+    font-weight: bold;
+    padding: 5px;
+}

@@ -170,7 +170,7 @@ nav>ul>li>ul>li>ul>li:hover{
 
 #objetos p,#objetos2 p {
     color: hsla(0, 94%, 51%,1);
-    font-size: 5.40vh;
+    font-size: 5.25vh;
     text-align: right; 
     margin-left: 10px;  
     font-family: 'Akronim', cursive;
@@ -308,15 +308,10 @@ nav>ul>li>ul>li>ul>li:hover{
     top: 245%;
     left: 0;
     width: 100%;
-    height: 59%;
+    height: 40%;
     background-color: #555555;
 }
-#contacto>img {
-    width: 570px;
-    height: 400px;
-    padding-top: 1vh;
-    margin: 0 30vh 0 75vh;
-}
+
 
 #iconos {
     position: absolute;
@@ -335,6 +330,21 @@ nav>ul>li>ul>li>ul>li:hover{
     height: 32px;
 }
 
+#contacto>#iconos img:hover {
+margin-left: 0.5em;
+width: 43px;
+height: 42px;
+border-radius: 1em;
+}
+
+#contacto>#iconos img:hover {
+    margin-left: 0.5em;
+    width: 45px;
+    height: 44px;
+    border-radius: 1em;
+    transform: rotate(360deg);
+        transition: 3s;
+}
 
 
 /* Mediaquerys, ajustadas a un movil de 6,1" aprox.*/
